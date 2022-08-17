@@ -5,4 +5,4 @@
 # Don't override, as this is just a reference setup
 
 git clone ${GIT_URL} .
-mvn install
+mvn -f ${POM_LOC} install
